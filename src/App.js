@@ -4,7 +4,7 @@ const Person = props => {
   console.log(props)
   return (<div>
     <span>Nombre: {props.name}, </span>
-    <span>Apellido: {props.name}, </span>
+    <span>Apellido: {props.surname}, </span>
     <span>Edad: {props.age}.</span>
   </div>)
 }
