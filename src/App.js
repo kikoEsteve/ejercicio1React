@@ -3,9 +3,11 @@ import './App.css';
 const Person = props => {
   console.log(props)
   return (<div>
-    <span>Nombre: {props.name}, </span>
-    <span>Apellido: {props.surname}, </span>
-    <span>Edad: {props.age}.</span>
+    <ul>
+      <li>Nombre: {props.name}, </li>
+      <li>Apellido: {props.surname}, </li>
+      <li>Edad: {props.age}.</li>
+    </ul>
   </div>)
 }
 
